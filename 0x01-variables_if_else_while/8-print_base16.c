@@ -1,4 +1,3 @@
-nes (19 sloc) 287 Bytes
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
