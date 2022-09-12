@@ -1,5 +1,4 @@
-
-#include "stdio.h"
+#include "main.h"
 
 /**
  * @c: An input character
