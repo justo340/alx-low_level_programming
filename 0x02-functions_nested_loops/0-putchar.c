@@ -1,6 +1,6 @@
 
 #include <unistd.h>
-#include "putchar.h"
+#include "stdio.h"
 
 /**
  * main - Check description
