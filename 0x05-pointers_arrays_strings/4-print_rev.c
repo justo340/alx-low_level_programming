@@ -8,14 +8,15 @@
  */
 void print_rev(char *s)
 {
-	int len = 0;
+	char *len = s;
 
-	while (s[len] != '\0')
+	while (*len) 
 		len++;
 
 	while (len)
 	{
-		putchar(s[len--]);
+		putchar(*s);
+		len--;
 	}
 	putchar('\n');
 }
