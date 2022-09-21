@@ -21,12 +21,12 @@ char *cap_string(char *n)
 		switch (n[i])
 		{
 			case ',':
-			case ';':	
+			case ';':
 			case '.':
-			case '!';
+			case '!':
 			case '?':
 			case '"':
-			case '(';
+			case '(':
 			case ')':
 			case '{':
 			case '}':
