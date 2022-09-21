@@ -1,4 +1,4 @@
-#include <holberton.h>
+#include <stdio.h>
 
 /**
  * _strncpy - a function that copys the strings.
