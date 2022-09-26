@@ -1,4 +1,5 @@
 #include "stdio.h"
+
 /**
  * print_chessboard - a function that prints the chessboard
  * @a: 2d array of chars
@@ -15,6 +16,7 @@ void print_chessboard(char (*a)[8])
 		{
 			_putchar(a[i][j]);
 		}
+		
 	_putchar('\n');
 	}
 }
