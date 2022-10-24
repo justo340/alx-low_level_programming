@@ -1,6 +1,3 @@
-#include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
 #include "lists.h"
 
 /**
@@ -8,18 +5,17 @@
  *
  * Return: Always 0.
  */
-int main(void)
+void free_list(list_t *head)
 {
-	list_t *head;
-	
-	head = NULL;
-	add_node_end(&head, "Jennie");
-	add_node_end(&head, "&");
-	add_node_end(&head, "Jay");
-	add_node_end(&head, "love");
-	add_node_end(&head, "asm");
-	print_list(head);
-	free_list(head);
-	head = NULL;
-	return (0);
+	list_t temp;
+
+	temp = head;
+	while(head)
+	{
+		temp = head;
+		head = head->next;
+		free(temp->str);
+		free(temp);
+	}
+	free(head);
 }
