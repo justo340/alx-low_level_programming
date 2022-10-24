@@ -1,13 +1,13 @@
 #include "lists.h"
 
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
+ * free_list - A function that frees all elements in a linked list
+ * @head: pointer to head element of list
+ * Return: Nothing
  */
 void free_list(list_t *head)
 {
-	list_t temp;
+	list_t *temp;
 
 	temp = head;
 	while(head)

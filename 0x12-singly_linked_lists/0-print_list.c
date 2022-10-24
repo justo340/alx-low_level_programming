@@ -1,6 +1,5 @@
 #include "lists.h"
 #include <stdio.h>
-
 /**
  * print_list - A function that prints a linked list
  * @h: pointer t  head of list
